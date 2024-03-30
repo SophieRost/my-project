@@ -1,4 +1,6 @@
 import logo from '../assets/logo.svg';
+import { Provider } from 'react-redux'
+
 
 function Main() {
   return (
