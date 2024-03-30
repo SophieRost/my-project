@@ -1,10 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../assets/logo.svg';
 
-function App() {
+function Header() {
   return (
-    <div className="App">
+    <div className="Header">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
